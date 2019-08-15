@@ -6,7 +6,7 @@ class App < Sinatra::Base
   
   get '/' do 
     erb :'view/super_hero'
-  en
+  end
   
   post '/teams' do
     @team = Team.new(params[:team])
