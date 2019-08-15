@@ -6,7 +6,7 @@ class Member
     @name = params[:name]
     @power = params[:power]
     @bio = params[:bio]
-    MEMBERS << self
+    @@members << self
   end
   
   def self.all 
