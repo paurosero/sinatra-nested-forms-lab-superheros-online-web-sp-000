@@ -16,7 +16,7 @@ class App < Sinatra::Base
     end
       @members = Member.all
       
-    erb :'views/team'
+    erb :teams
   end
 
 end
